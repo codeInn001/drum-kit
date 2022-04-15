@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, rgba(143, 29, 128, 0.6), rgba(143, 29, 128, 0.3)), url('../images/drum.jpg');
+    background-repeat: no-repeat;
+    background-size:  cover;
+    color: #fff;
+    height: 98vh;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.keys {
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.key {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(5, 24, 133);
+    text-align: center;
+}
+
+p {
+    font-weight: 700;
+}
+
+span {
+    font-size: 18px;
+}
+
+.playing {
+    border: 5px solid white;
+}
